@@ -191,10 +191,26 @@ img {
     color: var(--black);
 }
 
-.about-me-section p {
+.about-me-section .about-me-text {
     font-size: 1.1rem;
     font-weight: 500;
     line-height: 1.4;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #b4b4b4a1;
+    margin-bottom: 2rem;
+}
+
+.about-me-section .skills-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.about-me-section .skills-text span {
+    font-weight: 700;
+}
+
+.about-me-section .last-skill-text {
     padding-bottom: 1rem;
     border-bottom: 1px solid #b4b4b4a1;
     margin-bottom: 2rem;
